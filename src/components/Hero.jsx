@@ -1,4 +1,4 @@
-import { ArrowDown, ExternalLink, FileText, Github } from "lucide-react";
+import { ArrowDown, ExternalLink, FileText } from "lucide-react";
 import { useEffect, useState } from "react";
 import { personal } from "../data/portfolioData";
 
@@ -112,15 +112,7 @@ export default function Hero({ darkMode }) {
             <ExternalLink className="w-4 h-4 group-hover:rotate-12 transition-transform duration-200" />
             View Projects
           </button>
-          <a
-            href={personal.github}
-            target="_blank"
-            rel="noreferrer"
-            className="group flex items-center gap-2 px-5 py-2.5 rounded-full border border-border bg-card/30 text-foreground font-semibold text-sm transition-all duration-200 hover:border-primary/60 hover:text-primary hover:bg-primary/10 hover:scale-105"
-          >
-            <Github className="w-4 h-4 group-hover:rotate-12 transition-transform duration-200" />
-            GitHub
-          </a>
+          {/* GitHub link removed — only email/resume shown per preference */}
           <a
             href={personal.resume}
             target="_blank"

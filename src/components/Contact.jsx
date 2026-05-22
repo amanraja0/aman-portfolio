@@ -1,20 +1,8 @@
-import { ArrowUpRight, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowUpRight, Mail } from "lucide-react";
 import { personal } from "../data/portfolioData";
 
 export default function Contact() {
   const links = [
-    {
-      label: "GitHub",
-      description: "Check out my code",
-      href: personal.github,
-      icon: <Github className="w-6 h-6" />,
-    },
-    {
-      label: "LinkedIn",
-      description: "Connect professionally",
-      href: personal.linkedin,
-      icon: <Linkedin className="w-6 h-6" />,
-    },
     {
       label: "Email",
       description: personal.email,
@@ -35,15 +23,7 @@ export default function Contact() {
           full-time role, freelance project, or just a conversation. My inbox is
           always open.
         </p>
-        <div className="flex flex-wrap items-center justify-center gap-6 mb-8 text-xs text-muted-foreground">
-          <span className="px-3 py-1.5 rounded-full border border-border bg-muted/30">
-            {personal.location}
-          </span>
-          <span className="px-3 py-1.5 rounded-full border border-border bg-muted/30">
-            {personal.phone}
-          </span>
-        </div>
-        <div className="grid sm:grid-cols-3 gap-6 mb-12">
+        <div className="grid sm:grid-cols-1 gap-6 mb-12">
           {links.map((link) => (
             <a
               key={link.label}
