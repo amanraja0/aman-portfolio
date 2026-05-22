@@ -7,7 +7,7 @@ export const personal = {
   location: 'New Delhi, India',
   github: 'https://github.com/amanraja0',
   linkedin: 'https://linkedin.com/in/amanraja0',
-  resume: '/resume.pdf',
+  resume: 'Aman_Resume.pdf',
   summary:
     'Master\'s-level computer science graduate with experience in full-stack development, technical support, APIs, databases, and systems that prioritize maintainability and clear user outcomes.',
 };
