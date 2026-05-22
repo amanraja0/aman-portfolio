@@ -33,7 +33,7 @@ export default function About() {
             <div className="section-subline" />
             <p className="text-muted-foreground leading-relaxed mb-4">
               I'm <span className="text-foreground font-semibold">Aman</span>, a
-              Software Engineer with experience in
+              Software Engineer based in {personal.location} with experience in
               full-stack development, support workflows, and database-driven
               applications.
             </p>
@@ -51,6 +51,9 @@ export default function About() {
             <div className="mt-6 flex flex-wrap gap-3 text-xs text-muted-foreground">
               <span className="px-3 py-1.5 rounded-full border border-border bg-muted/30">
                 {personal.email}
+              </span>
+              <span className="px-3 py-1.5 rounded-full border border-border bg-muted/30">
+                {personal.phone}
               </span>
             </div>
           </div>
