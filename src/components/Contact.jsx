@@ -39,9 +39,6 @@ export default function Contact() {
           <span className="px-3 py-1.5 rounded-full border border-border bg-muted/30">
             {personal.location}
           </span>
-          <span className="px-3 py-1.5 rounded-full border border-border bg-muted/30">
-            {personal.phone}
-          </span>
         </div>
         <div className="grid sm:grid-cols-3 gap-6 mb-12">
           {links.map((link) => (

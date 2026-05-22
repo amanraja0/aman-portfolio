@@ -52,9 +52,6 @@ export default function About() {
               <span className="px-3 py-1.5 rounded-full border border-border bg-muted/30">
                 {personal.email}
               </span>
-              <span className="px-3 py-1.5 rounded-full border border-border bg-muted/30">
-                {personal.phone}
-              </span>
             </div>
           </div>
           <div className="space-y-4">

@@ -3,7 +3,6 @@ export const personal = {
   role: 'Software Engineer',
   tagline: 'Ambitious software engineer focused on full-stack development, support operations, and practical problem solving.',
   email: 'amanraja424@gmail.com',
-  phone: '+91-9366690599',
   location: 'New Delhi, India',
   github: 'https://github.com/amanraja0',
   linkedin: 'https://linkedin.com/in/amanraja0',
