@@ -2,7 +2,7 @@ import { ArrowDown, ExternalLink, FileText, Github } from "lucide-react";
 import { useEffect, useState } from "react";
 import { personal } from "../data/portfolioData";
 
-const ROLES = ["Full Stack Developer", "Software Engineer"];
+const ROLES = ["Software Engineer", "Full Stack Developer", "Backend Engineer"];
 
 function TypingAnimation() {
   const [displayed, setDisplayed] = useState("");
